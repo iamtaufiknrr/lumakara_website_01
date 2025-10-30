@@ -1797,7 +1797,7 @@ animation: spinner 1s infinite linear;
   visibility: visible;
   transition-delay: 0.0s;
   right: 100%;
-  background-color: #000000;
+  background-color: #170c03;
 }
 
 .xs-sidebar-widget {
@@ -1807,7 +1807,7 @@ animation: spinner 1s infinite linear;
   bottom: 0;
   width: 100%;
   max-width: 365px;
-  background-color: #000000;
+  background-color: #170c03;
   overflow: hidden;
   overflow-y: auto;
   -webkit-transform: translateX(-300px);
@@ -1855,7 +1855,7 @@ animation: spinner 1s infinite linear;
   width: 100%;
   opacity: .8;
   z-index: 0;
-  background-color: #000000;
+  background-color: #170c03;
 }
 
 .xs-sidebar-group .widget-heading {
@@ -2071,7 +2071,7 @@ animation: spinner 1s infinite linear;
 }
 
 .thm-social-link1 ul li a:hover {
-  color: #000000;
+  color: #170c03;
 }
 
 
@@ -2306,7 +2306,7 @@ Main Slider One
   left: 0;
   bottom: 0;
   right: 0;
-  background: #000000;
+  background: #170c03;
   background-blend-mode: luminosity;
   opacity: 1;
   background-position: center center;
@@ -2574,7 +2574,7 @@ Main Slider Two
   top: 0px;
   bottom: 0px;
   right: 0;
-  background: #000000;
+  background: #170c03;
   background-blend-mode: luminosity;
   width: calc((100% - 0px) / 2);
   background-position: top right;
@@ -2634,7 +2634,7 @@ Main Slider Two
   position: absolute;
   left: 0;
   bottom: 0;
-  background: #000000;
+  background: #170c03;
   background-blend-mode: luminosity;
   background-attachment: scroll;
   background-size: cover;
@@ -4011,7 +4011,7 @@ Awards One
 .awards-one {
   position: relative;
   display: block;
-  background: #000000;
+  background: #170c03;
   padding: 120px 0px 0px;
   z-index: 1;
 }
@@ -4279,7 +4279,7 @@ Team One
 .team-one {
   position: relative;
   display: block;
-  background: #000000;
+  background: #170c03;
   padding: 91px 0px 90px;
   z-index: 1;
 }
@@ -4675,7 +4675,7 @@ Footer One
 .footer-one {
   position: relative;
   display: block;
-  background: #000000;
+  background: #170c03;
   padding: 122px 0px 0px;
   z-index: 1;
 }
@@ -7667,7 +7667,7 @@ Portfolio One Css
   left: 0;
   right: 0;
   height: 50%;
-  background: #000000;
+  background: #170c03;
   opacity: 0.2;
   transition-delay: .1s;
   transition-timing-function: ease-in-out;
@@ -7692,7 +7692,7 @@ Portfolio One Css
   left: 0;
   right: 0;
   height: 50%;
-  background: #000000;
+  background: #170c03;
   opacity: 0.2;
   transition-delay: .1s;
   transition-timing-function: ease-in-out;
@@ -8678,7 +8678,7 @@ Blog List
   transition-timing-function: ease-in-out;
   transition-duration: .7s;
   transition-property: all;
-  background: #000000;
+  background: #170c03;
   opacity: 0;
   z-index: 1;
   content: "";
@@ -8843,7 +8843,7 @@ Blog List
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(0deg, #000000 5%, rgba(0, 0, 0, 0.5) 100%);
+  background: linear-gradient(0deg, #170c03 5%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .coming-soon-page-style1__content {
