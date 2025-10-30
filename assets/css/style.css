@@ -17,47 +17,13 @@
 # Common
 --------------------------------------------------------------*/
 :root {
-  /* Fonts */
   --thm-font: 'DM Sans', sans-serif;
   --thm-font-2: 'Lora', serif;
   --thm-reey-font: 'reeyregular';
-  
-  /* Lumakara Color Palette - Earthy Warm Tones */
-  /* Primary Colors */
-  --primary-dark: #170c03;      /* Creole - Headers, Strong CTA */
-  --primary-brown: #4e4028;     /* Lisbon Brown - Body text, Navigation */
-  --primary-gold: #d3bd8a;      /* Straw - Accent, Highlights, Hover */
-  
-  /* Secondary Colors */
-  --secondary-dark: #75674e;    /* Go Ben - Subheadings, Icons */
-  --secondary-light: #a59473;   /* Donkey Brown - Borders, Subtle accents */
-  --secondary-lighter: #cfbb93; /* Sorrell Brown - Backgrounds, Cards */
-  
-  /* Background & Surface */
-  --bg-primary: #ffffff;        /* White - Main background */
-  --bg-secondary: #faf8f5;      /* Off-white - Section backgrounds */
-  --bg-card: #f5f2ed;           /* Very light tan - Cards, Panels */
-  --bg-accent: #cfbb93;         /* Sorrell Brown - Hero sections */
-  
-  /* Text Colors */
-  --text-primary: #170c03;      /* Creole - Main text */
-  --text-secondary: #4e4028;    /* Lisbon Brown - Secondary text */
-  --text-muted: #75674e;        /* Go Ben - Captions, Meta */
-  --text-light: #a59473;        /* Donkey Brown - Placeholders */
-  
-  /* Interactive Elements */
-  --btn-primary-bg: #4e4028;
-  --btn-primary-hover: #170c03;
-  --btn-secondary-bg: #d3bd8a;
-  --btn-secondary-hover: #cfbb93;
-  --link-color: #4e4028;
-  --link-hover: #d3bd8a;
-  
-  /* Legacy support (will be replaced gradually) */
-  --thm-gray: #a59473;
-  --thm-gray-rgb: 165, 148, 115;
-  --thm-black: #170c03;
-  --thm-black-rgb: 23, 12, 3;
+  --thm-gray: #d0c9c9;
+  --thm-gray-rgb: 208, 201, 201;
+  --thm-black: #000000;
+  --thm-black-rgb: 0, 0, 0;
 }
 
 .auto-container {
