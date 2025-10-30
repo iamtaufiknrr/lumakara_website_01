@@ -5,9 +5,9 @@
   # Publish directory - root folder for static HTML
   publish = "."
 
-# Identity (for CMS authentication)
-[identity]
-  external_url = "https://lumakara.web.id"
+# Identity (for CMS authentication) - Disabled for initial deployment
+# [identity]
+#   external_url = "https://lumakara.web.id"
 
 # Custom domain configuration
 # Force HTTPS redirect
