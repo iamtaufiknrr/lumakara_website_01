@@ -4,12 +4,6 @@
 [build]
   # Publish directory - root folder for static HTML
   publish = "."
-  
-  # Build command - create empty _site if needed
-  command = "echo 'Static HTML site ready'"
-  
-[build.environment]
-  NODE_VERSION = "18"
 
 # Identity (for CMS authentication)
 [identity]
