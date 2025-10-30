@@ -13,12 +13,19 @@
 
 # Identity (for CMS authentication)
 [identity]
-  external_url = "http://lumakara.web.id"
+  external_url = "https://lumakara.web.id"
 
 # Custom domain configuration
+# Force HTTPS redirect
+[[redirects]]
+  from = "http://lumakara.web.id/*"
+  to = "https://lumakara.web.id/:splat"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "http://lumakara.netlify.app/*"
-  to = "http://lumakara.web.id/:splat"
+  to = "https://lumakara.web.id/:splat"
   status = 301
   force = true
 
