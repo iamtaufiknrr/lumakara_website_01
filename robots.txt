@@ -1,0 +1,14 @@
+# robots.txt for lumakara.web.id
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private areas if any
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: http://lumakara.web.id/sitemap.xml
+
+# Crawl delay (optional, in seconds)
+Crawl-delay: 1

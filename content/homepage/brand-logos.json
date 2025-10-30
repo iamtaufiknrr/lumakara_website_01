@@ -1,0 +1,29 @@
+{
+  "logos": [
+    {
+      "logo": "/assets/images/brand/brand-1-1.png",
+      "name": "Brand 1",
+      "url": "#"
+    },
+    {
+      "logo": "/assets/images/brand/brand-1-2.png",
+      "name": "Brand 2",
+      "url": "#"
+    },
+    {
+      "logo": "/assets/images/brand/brand-1-3.png",
+      "name": "Brand 3",
+      "url": "#"
+    },
+    {
+      "logo": "/assets/images/brand/brand-1-4.png",
+      "name": "Brand 4",
+      "url": "#"
+    },
+    {
+      "logo": "/assets/images/brand/brand-1-5.png",
+      "name": "Brand 5",
+      "url": "#"
+    }
+  ]
+}

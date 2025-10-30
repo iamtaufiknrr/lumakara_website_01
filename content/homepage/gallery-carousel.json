@@ -1,0 +1,30 @@
+{
+  "tagline": "latest projects",
+  "title": "Our Working Gallery",
+  "gallery_items": [
+    {
+      "image": "/assets/images/gallery/gallery-v2-img1.jpg",
+      "category": "Business Idea",
+      "title": "Super Experince",
+      "link_url": "#"
+    },
+    {
+      "image": "/assets/images/gallery/gallery-v2-img2.jpg",
+      "category": "Business Idea",
+      "title": "Super Experince",
+      "link_url": "#"
+    },
+    {
+      "image": "/assets/images/gallery/gallery-v2-img3.jpg",
+      "category": "Business Idea",
+      "title": "Super Experince",
+      "link_url": "#"
+    },
+    {
+      "image": "/assets/images/gallery/gallery-v2-img4.jpg",
+      "category": "Business Idea",
+      "title": "Super Experince",
+      "link_url": "#"
+    }
+  ]
+}

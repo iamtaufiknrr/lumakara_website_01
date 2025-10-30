@@ -1,0 +1,80 @@
+<!-- 
+  ============================================
+  NETLIFY IDENTITY WIDGET SNIPPET
+  ============================================
+  
+  Add this code to ALL pages (before closing </body> tag)
+  to enable CMS authentication and admin access
+  
+  Location: Just before </body> in:
+  - index.html
+  - about.html
+  - blog.html
+  - contact.html
+  - portfolio.html
+  - services.html
+  - team.html
+  - All other HTML pages
+  ============================================
+-->
+
+<!-- Netlify Identity Widget -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<!-- Netlify Identity Redirect Script -->
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
+<!-- Optional: CMS Integration for Dynamic Content -->
+<script src="/assets/js/cms-integration.js"></script>
+
+<!-- 
+  ============================================
+  INSTRUCTIONS:
+  ============================================
+  
+  1. Copy the above scripts
+  2. Open each HTML file in your website
+  3. Find the closing </body> tag
+  4. Paste the scripts just BEFORE </body>
+  5. Save the file
+  
+  Example:
+  
+  <!DOCTYPE html>
+  <html>
+  <head>
+    ...
+  </head>
+  <body>
+    ... your page content ...
+    
+    <!-- ADD SCRIPTS HERE -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    <script src="/assets/js/cms-integration.js"></script>
+    
+  </body>
+  </html>
+  
+  ============================================
+-->

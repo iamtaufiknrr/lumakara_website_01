@@ -1,0 +1,23 @@
+{
+  "title": "About Lumakara",
+  "content": "## Who We Are\n\nLumakara is a leading provider of innovative solutions for agriculture and business. With years of experience and a dedicated team of experts, we help organizations achieve sustainable growth and success.\n\n### Our Values\n\n- **Innovation**: We embrace new technologies and approaches\n- **Sustainability**: We prioritize environmental responsibility\n- **Excellence**: We deliver quality in everything we do\n- **Integrity**: We build trust through transparency",
+  "image": "/assets/images/resources/about-1-1.jpg",
+  "stats": [
+    {
+      "number": "500+",
+      "label": "Happy Clients"
+    },
+    {
+      "number": "50+",
+      "label": "Expert Team"
+    },
+    {
+      "number": "1000+",
+      "label": "Projects Completed"
+    },
+    {
+      "number": "15+",
+      "label": "Years Experience"
+    }
+  ]
+}

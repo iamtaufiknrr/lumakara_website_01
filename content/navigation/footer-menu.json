@@ -1,0 +1,84 @@
+{
+  "columns": [
+    {
+      "title": "Company",
+      "links": [
+        {
+          "title": "About Us",
+          "url": "/about.html"
+        },
+        {
+          "title": "Our Team",
+          "url": "/team.html"
+        },
+        {
+          "title": "Careers",
+          "url": "/careers.html"
+        },
+        {
+          "title": "Contact",
+          "url": "/contact.html"
+        }
+      ]
+    },
+    {
+      "title": "Services",
+      "links": [
+        {
+          "title": "Agriculture",
+          "url": "/agriculture-services.html"
+        },
+        {
+          "title": "Delivery",
+          "url": "/delivery-services.html"
+        },
+        {
+          "title": "Consulting",
+          "url": "/services.html"
+        },
+        {
+          "title": "Design",
+          "url": "/graphic-design.html"
+        }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        {
+          "title": "Blog",
+          "url": "/blog.html"
+        },
+        {
+          "title": "FAQ",
+          "url": "/faq.html"
+        },
+        {
+          "title": "Pricing",
+          "url": "/pricing.html"
+        },
+        {
+          "title": "Portfolio",
+          "url": "/portfolio.html"
+        }
+      ]
+    },
+    {
+      "title": "Legal",
+      "links": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy.html"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service.html"
+        },
+        {
+          "title": "Cookie Policy",
+          "url": "/cookie-policy.html"
+        }
+      ]
+    }
+  ]
+}

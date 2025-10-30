@@ -1,0 +1,36 @@
+{
+  "title": "Why Choose Lumakara",
+  "subtitle": "We provide comprehensive solutions tailored to your unique needs",
+  "features": [
+    {
+      "icon": "fa-leaf",
+      "title": "Sustainable Agriculture",
+      "description": "Innovative farming solutions that prioritize environmental sustainability and long-term growth."
+    },
+    {
+      "icon": "fa-laptop-code",
+      "title": "Technology Integration",
+      "description": "Cutting-edge technology solutions designed to streamline your operations and boost efficiency."
+    },
+    {
+      "icon": "fa-users",
+      "title": "Expert Team",
+      "description": "Our experienced professionals are dedicated to delivering exceptional results for your business."
+    },
+    {
+      "icon": "fa-chart-line",
+      "title": "Business Growth",
+      "description": "Strategic consulting and implementation services to help your business reach new heights."
+    },
+    {
+      "icon": "fa-shield-alt",
+      "title": "Quality Assurance",
+      "description": "We maintain the highest standards of quality in all our products and services."
+    },
+    {
+      "icon": "fa-headset",
+      "title": "24/7 Support",
+      "description": "Our support team is always available to assist you with any questions or concerns."
+    }
+  ]
+}

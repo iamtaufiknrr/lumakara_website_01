@@ -1,0 +1,28 @@
+{
+  "counters": [
+    {
+      "count": 4,
+      "suffix": "k+",
+      "label": "Satisfied clients in our company",
+      "animation": "slideInUp"
+    },
+    {
+      "count": 301,
+      "suffix": "",
+      "label": "Working hours were the spent",
+      "animation": "slideInDown"
+    },
+    {
+      "count": 2,
+      "suffix": "k+",
+      "label": "Successful our projects completed",
+      "animation": "slideInUp"
+    },
+    {
+      "count": 813,
+      "suffix": "",
+      "label": "Our latest expert team members",
+      "animation": "slideInDown"
+    }
+  ]
+}

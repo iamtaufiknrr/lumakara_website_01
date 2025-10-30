@@ -1,0 +1,37 @@
+{
+  "tagline": "our services",
+  "title": "What We Offer",
+  "center_image": "/assets/images/resources/services-v2-img1.jpg",
+  "video_url": "https://www.youtube.com/watch?v=p25gICT63ek",
+  "video_button_text": "Watch Video",
+  "services": [
+    {
+      "icon": "icon-project-management",
+      "title": "Develope",
+      "description": "Mestib removes the completed marketing reserch abusiness high consultations..",
+      "link_url": "#",
+      "animation_side": "left"
+    },
+    {
+      "icon": "icon-creative-idea",
+      "title": "Creative",
+      "description": "Mestib removes the completed marketing reserch abusiness high consultations..",
+      "link_url": "#",
+      "animation_side": "right"
+    },
+    {
+      "icon": "icon-promotion",
+      "title": "Marketing",
+      "description": "Mestib removes the completed marketing reserch abusiness high consultations..",
+      "link_url": "#",
+      "animation_side": "left"
+    },
+    {
+      "icon": "icon-interior-design",
+      "title": "Designing",
+      "description": "Mestib removes the completed marketing reserch abusiness high consultations..",
+      "link_url": "#",
+      "animation_side": "right"
+    }
+  ]
+}

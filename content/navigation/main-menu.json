@@ -1,0 +1,63 @@
+{
+  "menu_items": [
+    {
+      "title": "Home",
+      "url": "/index.html",
+      "order": 1,
+      "submenu": []
+    },
+    {
+      "title": "About",
+      "url": "/about.html",
+      "order": 2,
+      "submenu": []
+    },
+    {
+      "title": "Services",
+      "url": "/services.html",
+      "order": 3,
+      "submenu": [
+        {
+          "title": "Agriculture Services",
+          "url": "/agriculture-services.html"
+        },
+        {
+          "title": "Delivery Services",
+          "url": "/delivery-services.html"
+        },
+        {
+          "title": "Farming Products",
+          "url": "/farming-products.html"
+        },
+        {
+          "title": "Graphic Design",
+          "url": "/graphic-design.html"
+        }
+      ]
+    },
+    {
+      "title": "Portfolio",
+      "url": "/portfolio.html",
+      "order": 4,
+      "submenu": []
+    },
+    {
+      "title": "Blog",
+      "url": "/blog.html",
+      "order": 5,
+      "submenu": []
+    },
+    {
+      "title": "Team",
+      "url": "/team.html",
+      "order": 6,
+      "submenu": []
+    },
+    {
+      "title": "Contact",
+      "url": "/contact.html",
+      "order": 7,
+      "submenu": []
+    }
+  ]
+}
