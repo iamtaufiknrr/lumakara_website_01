@@ -20,10 +20,18 @@
   --thm-font: 'DM Sans', sans-serif;
   --thm-font-2: 'Lora', serif;
   --thm-reey-font: 'reeyregular';
-  --thm-gray: #d0c9c9;
-  --thm-gray-rgb: 208, 201, 201;
-  --thm-black: #000000;
-  --thm-black-rgb: 0, 0, 0;
+  
+  /* Lumakara Color Palette - Subtle Dark Mode */
+  --thm-gray: #d3bd8a;        /* Straw - Main text color */
+  --thm-gray-rgb: 211, 189, 138;
+  --thm-black: #170c03;       /* Creole - Dark backgrounds */
+  --thm-black-rgb: 23, 12, 3;
+  
+  /* Additional Lumakara Colors for accents */
+  --lumakara-gold: #d3bd8a;     /* Straw - Highlights */
+  --lumakara-brown: #4e4028;    /* Lisbon Brown - Secondary backgrounds */
+  --lumakara-light: #cfbb93;    /* Sorrell Brown - Lighter accents */
+  --lumakara-mid: #a59473;      /* Donkey Brown - Mid tones */
 }
 
 .auto-container {
@@ -90,7 +98,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ffffff;
+  color: var(--lumakara-gold);  /* Straw gold for warm headings */
   font-family: var(--thm-font-2);
   margin: 0;
 }
