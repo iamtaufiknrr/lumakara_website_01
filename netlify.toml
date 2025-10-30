@@ -4,6 +4,8 @@
 [build]
   # Publish directory - root folder for static HTML
   publish = "."
+  # Explicitly set empty command to override dashboard settings
+  command = ""
 
 # Identity (for CMS authentication) - Disabled for initial deployment
 # [identity]

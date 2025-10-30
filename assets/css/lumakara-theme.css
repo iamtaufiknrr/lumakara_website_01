@@ -1,0 +1,535 @@
+/*===============================================
+  LUMAKARA CUSTOM THEME - EARTHY WARM PALETTE
+  Light Mode Design System
+===============================================*/
+
+/*----------------------------------------------
+  1. GLOBAL OVERRIDES
+----------------------------------------------*/
+
+/* Body background - warm white */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+}
+
+/* Headings - dark brown for contrast */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary) !important;
+}
+
+/* Paragraphs - readable brown */
+p {
+  color: var(--text-secondary);
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+/*----------------------------------------------
+  2. HEADER & NAVIGATION
+----------------------------------------------*/
+
+/* Main Header - Light background with shadow */
+.main-header {
+  background-color: var(--bg-primary);
+  box-shadow: 0 2px 10px rgba(23, 12, 3, 0.08);
+}
+
+.main-header-two {
+  background-color: var(--bg-primary);
+}
+
+/* Navigation links */
+.main-menu__list > li > a {
+  color: var(--text-primary);
+}
+
+.main-menu__list > li > a:hover {
+  color: var(--primary-gold);
+}
+
+/* Dropdown menus */
+.main-menu__list li ul {
+  background-color: var(--bg-primary);
+  box-shadow: 0 4px 20px rgba(23, 12, 3, 0.1);
+}
+
+.main-menu__list li ul li a {
+  color: var(--text-secondary);
+}
+
+.main-menu__list li ul li a:hover {
+  background-color: var(--bg-card);
+  color: var(--primary-gold);
+}
+
+/* Mobile nav toggler */
+.mobile-nav__toggler {
+  color: var(--text-primary);
+}
+
+/*----------------------------------------------
+  3. HERO / SLIDER SECTIONS
+----------------------------------------------*/
+
+.main-slider-one,
+.main-slider-two {
+  background-color: var(--bg-accent);
+}
+
+.main-slider-one__content h2,
+.main-slider-two__single h2 {
+  color: var(--text-primary) !important;
+}
+
+.main-slider-one__content p {
+  color: var(--text-secondary);
+}
+
+/* Social links in slider */
+.main-slider-one__content .social-links li a {
+  color: var(--text-primary);
+  border-color: var(--secondary-light);
+}
+
+.main-slider-one__content .social-links li a:hover {
+  background-color: var(--primary-gold);
+  border-color: var(--primary-gold);
+  color: var(--bg-primary);
+}
+
+/*----------------------------------------------
+  4. BUTTONS & CTA
+----------------------------------------------*/
+
+/* Primary Button */
+.thm-btn {
+  background-color: var(--btn-primary-bg);
+  color: #ffffff;
+  border-color: var(--btn-primary-bg);
+}
+
+.thm-btn:hover {
+  background-color: var(--btn-primary-hover);
+  border-color: var(--btn-primary-hover);
+  color: #ffffff;
+}
+
+.thm-btn .bdrl,
+.thm-btn .bdrr {
+  background-color: var(--primary-gold);
+}
+
+/* Secondary/Outline Button */
+.thm-btn.style2 {
+  background-color: transparent;
+  color: var(--btn-primary-bg);
+  border-color: var(--btn-primary-bg);
+}
+
+.thm-btn.style2:hover {
+  background-color: var(--btn-primary-bg);
+  color: #ffffff;
+}
+
+/*----------------------------------------------
+  5. SECTIONS BACKGROUNDS
+----------------------------------------------*/
+
+/* Alternating section backgrounds for depth */
+.about-one,
+.services-one,
+.gallery-one,
+.testimonials-one,
+.team-two,
+.pricing-one {
+  background-color: var(--bg-primary);
+}
+
+.brand-one,
+.counter-one,
+.advantages-one,
+.services-two,
+.gallery-two,
+.blog-one,
+.testimonials-two,
+.blog-two {
+  background-color: var(--bg-secondary);
+}
+
+/* Feature sections with accent */
+.feature-one {
+  background-color: var(--bg-accent);
+}
+
+/*----------------------------------------------
+  6. CARDS & PANELS
+----------------------------------------------*/
+
+/* Service cards */
+.services-one__single,
+.services-two__single {
+  background-color: var(--bg-card);
+  border-color: var(--secondary-lighter);
+}
+
+.services-one__single:hover,
+.services-two__single:hover {
+  background-color: var(--bg-primary);
+  box-shadow: 0 10px 30px rgba(23, 12, 3, 0.1);
+}
+
+/* Gallery items */
+.gallery-one__single,
+.gallery-two__single {
+  background-color: var(--bg-card);
+}
+
+.gallery-one__single-content,
+.gallery-two__single .overlay-content {
+  background-color: var(--bg-primary);
+}
+
+/* Blog cards */
+.blog-one__single,
+.blog-two__single {
+  background-color: var(--bg-card);
+  transition: all 0.3s ease;
+}
+
+.blog-one__single:hover,
+.blog-two__single:hover {
+  background-color: var(--bg-primary);
+  box-shadow: 0 10px 30px rgba(23, 12, 3, 0.08);
+  transform: translateY(-5px);
+}
+
+/* Team cards */
+.team-one__single,
+.team-two__single {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--secondary-lighter);
+}
+
+.team-one__single:hover,
+.team-two__single:hover {
+  box-shadow: 0 10px 30px rgba(23, 12, 3, 0.1);
+}
+
+/* Testimonial cards */
+.testimonials-one__single,
+.testimonials-two__single {
+  background-color: var(--bg-card);
+  border-color: var(--secondary-lighter);
+}
+
+/* Pricing cards */
+.pricing-one__single {
+  background-color: var(--bg-primary);
+  border: 2px solid var(--secondary-lighter);
+}
+
+.pricing-one__single:hover {
+  border-color: var(--primary-gold);
+  box-shadow: 0 10px 40px rgba(211, 189, 138, 0.2);
+}
+
+/*----------------------------------------------
+  7. COUNTERS & STATISTICS
+----------------------------------------------*/
+
+.counter-one,
+.counter-two {
+  background-color: var(--bg-secondary);
+}
+
+.counter-one__single .counter-box h2,
+.counter-two__single .counter-box h2 {
+  color: var(--primary-gold) !important;
+}
+
+.counter-one__single p,
+.counter-two__single p {
+  color: var(--text-secondary);
+}
+
+/* Counter borders */
+.counter-one__single .border-box,
+.counter-two__single::before {
+  background-color: var(--secondary-lighter);
+}
+
+/*----------------------------------------------
+  8. SECTION TITLES & HEADINGS
+----------------------------------------------*/
+
+.sec-title__tagline {
+  color: var(--primary-gold);
+}
+
+.sec-title__tagline .border-box {
+  background-color: var(--primary-gold);
+}
+
+.sec-title__title {
+  color: var(--text-primary) !important;
+}
+
+/* Big decorative titles */
+.big-title h2,
+.big-title1 h2,
+.big-title2 h2 {
+  color: var(--bg-card);
+  -webkit-text-stroke: 1px var(--secondary-lighter);
+}
+
+/*----------------------------------------------
+  9. FORMS & INPUTS
+----------------------------------------------*/
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea,
+select {
+  background-color: var(--bg-primary);
+  border-color: var(--secondary-lighter);
+  color: var(--text-primary);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-light);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--primary-gold);
+  background-color: var(--bg-secondary);
+}
+
+/*----------------------------------------------
+  10. FOOTER
+----------------------------------------------*/
+
+.footer-one {
+  background-color: var(--primary-dark);
+  color: var(--secondary-lighter);
+}
+
+.footer-one h2,
+.footer-one h3,
+.footer-one h4 {
+  color: var(--primary-gold) !important;
+}
+
+.footer-one p {
+  color: var(--secondary-lighter);
+}
+
+.footer-one a {
+  color: var(--secondary-lighter);
+}
+
+.footer-one a:hover {
+  color: var(--primary-gold);
+}
+
+.footer-one__contact .border-box {
+  background-image: none;
+  border-top: 2px solid var(--secondary-dark);
+}
+
+.footer-one__social-links .border-box {
+  background-color: var(--secondary-dark);
+}
+
+.footer-one__copyright {
+  border-top: 1px solid var(--secondary-dark);
+}
+
+/*----------------------------------------------
+  11. ICONS & DECORATIVE ELEMENTS
+----------------------------------------------*/
+
+/* Icon colors */
+.icon-box span,
+[class*="icon-"] {
+  color: var(--primary-gold);
+}
+
+.services-one__single .icon-box span,
+.services-two__single .icon-box span {
+  color: var(--primary-gold);
+}
+
+/* Rating stars */
+.rating-box span,
+.icon-pointed-star {
+  color: var(--primary-gold);
+}
+
+/* Arrows and chevrons */
+.icon-right-arrow-1,
+.icon-chevron,
+.icon-diagonal-arrow2 {
+  color: var(--primary-gold);
+}
+
+/*----------------------------------------------
+  12. BORDERS & DIVIDERS
+----------------------------------------------*/
+
+.border-box {
+  background-color: var(--primary-gold);
+}
+
+/* Section dividers */
+hr {
+  border-color: var(--secondary-lighter);
+}
+
+/*----------------------------------------------
+  13. OVERLAY & HOVER EFFECTS
+----------------------------------------------*/
+
+/* Overlay backgrounds */
+.overlay-content {
+  background-color: rgba(207, 187, 147, 0.95);
+}
+
+.overlay-content h2,
+.overlay-content p {
+  color: var(--text-primary);
+}
+
+/* Image hover overlays */
+.gallery-one__single-img::before,
+.gallery-two__single-img::before,
+.portfolio-one__single::before {
+  background-color: rgba(211, 189, 138, 0.9);
+}
+
+/*----------------------------------------------
+  14. PRELOADER
+----------------------------------------------*/
+
+.loader-wrap {
+  background-color: var(--bg-primary);
+}
+
+.preloader .spinner {
+  border-color: var(--secondary-lighter);
+  border-top-color: var(--primary-gold);
+}
+
+.txt-loading span {
+  color: var(--text-primary);
+}
+
+/*----------------------------------------------
+  15. MOBILE NAVIGATION
+----------------------------------------------*/
+
+.mobile-nav__content {
+  background-color: var(--bg-primary);
+}
+
+.mobile-nav__content a {
+  color: var(--text-primary);
+}
+
+.mobile-nav__content a:hover {
+  color: var(--primary-gold);
+}
+
+/*----------------------------------------------
+  16. SEARCH POPUP
+----------------------------------------------*/
+
+.search-popup__content {
+  background-color: var(--bg-primary);
+}
+
+.search-popup input {
+  background-color: var(--bg-secondary);
+  border-color: var(--secondary-lighter);
+  color: var(--text-primary);
+}
+
+/*----------------------------------------------
+  17. RESPONSIVE ADJUSTMENTS
+----------------------------------------------*/
+
+@media (max-width: 991px) {
+  .main-header {
+    background-color: var(--bg-primary);
+  }
+  
+  .mobile-nav__content {
+    background-color: var(--bg-primary);
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  
+  h1, h2, h3 {
+    line-height: 1.3;
+  }
+}
+
+/*----------------------------------------------
+  18. UTILITY CLASSES
+----------------------------------------------*/
+
+.text-primary-dark { color: var(--primary-dark) !important; }
+.text-primary-brown { color: var(--primary-brown) !important; }
+.text-primary-gold { color: var(--primary-gold) !important; }
+.text-secondary-dark { color: var(--secondary-dark) !important; }
+
+.bg-primary { background-color: var(--bg-primary) !important; }
+.bg-secondary { background-color: var(--bg-secondary) !important; }
+.bg-card { background-color: var(--bg-card) !important; }
+.bg-accent { background-color: var(--bg-accent) !important; }
+
+.border-gold { border-color: var(--primary-gold) !important; }
+.border-brown { border-color: var(--primary-brown) !important; }
+
+/*----------------------------------------------
+  19. SCROLLBAR STYLING (Optional)
+----------------------------------------------*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-light);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary-gold);
+}
+
+/*===============================================
+  END LUMAKARA THEME
+===============================================*/
